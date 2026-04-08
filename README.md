@@ -22,8 +22,4 @@ To run this project successfully, your system needs to meet the following requir
 2. **Hardware:** A working microphone and speakers/headphones.
 3. **Language Pack:** To recognize English words, your Windows system must have the **English (United States)** language and the **Speech Recognition** pack installed (Check *Settings > Time & Language > Language & region*).
 
-### How to Run the Project
 
-1. Clone this repository to your local machine:
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/console-voice-assistant.git](https://github.com/YOUR_USERNAME/console-voice-assistant.git)

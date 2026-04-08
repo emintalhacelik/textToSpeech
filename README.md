@@ -1,29 +1,29 @@
-# 🎙️ C# Konsol Sesli Asistan (TTS & STT)
+# 🎙️ C# Console Voice Assistant (TTS & STT)
 
-Bu proje, C# ve `.NET Framework` kullanılarak geliştirilmiş, konsol tabanlı basit bir **Metinden Sese (Text-to-Speech)** ve **Sesten Metne (Speech-to-Text)** uygulamasıdır. Windows'un dahili `System.Speech` kütüphanesini kullanarak çevrimdışı (internetsiz) olarak çalışır.
+This project is a simple, console-based **Text-to-Speech (TTS)** and **Speech-to-Text (STT)** application developed using C# and the `.NET Framework`. It operates completely offline using the built-in Windows `System.Speech` library.
 
-## ✨ Özellikler
+## ✨ Features
 
-* **Metinden Sese (TTS):** Kullanıcının konsola yazdığı metinleri bilgisayarın varsayılan sesiyle okur.
-* **Sesten Metne (STT):** Kullanıcının mikrofona söylediği İngilizce kelimeleri algılar, anlık olarak ekrana yazar ve kelimeyi ne kadar net anladığını (güvenilirlik oranı) gösterir.
-* **Asenkron Dinleme:** Uygulama dinleme yaparken donmaz, arka planda sürekli olarak sesi algılamaya devam eder.
+* **Text-to-Speech (TTS):** Reads aloud the text entered by the user in the console using the default Windows system voice.
+* **Speech-to-Text (STT):** Listens to English words spoken into the microphone, prints them to the console in real-time, and displays the confidence score of the recognized speech.
+* **Asynchronous Listening:** The application continuously listens in the background without freezing the console interface.
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Technologies Used
 
-* **Dil:** C#
+* **Language:** C#
 * **Platform:** .NET Framework / Console Application
-* **Kütüphane:** `System.Speech` (`System.Speech.Synthesis` ve `System.Speech.Recognition`)
+* **Library:** `System.Speech` (`System.Speech.Synthesis` and `System.Speech.Recognition`)
 
-## ⚙️ Gereksinimler ve Kurulum
+## ⚙️ Requirements and Setup
 
-Bu projenin bilgisayarınızda sorunsuz çalışması için bazı donanımsal ve yazılımsal gereksinimler bulunmaktadır:
+To run this project successfully, your system needs to meet the following requirements:
 
-1. **İşletim Sistemi:** Windows (System.Speech kütüphanesi Windows API'lerine dayanır).
-2. **Donanım:** Çalışır durumda bir mikrofon ve hoparlör.
-3. **Dil Paketi:** Ses tanıma (STT) motorunun İngilizce kelimeleri algılayabilmesi için Windows **Ayarlar > Zaman ve Dil > Dil ve Bölge** menüsünden **English (United States)** dilinin ve **Konuşma Tanıma (Speech Recognition)** paketinin yüklü olması gerekir.
+1. **Operating System:** Windows (The `System.Speech` library relies on native Windows APIs).
+2. **Hardware:** A working microphone and speakers/headphones.
+3. **Language Pack:** To recognize English words, your Windows system must have the **English (United States)** language and the **Speech Recognition** pack installed (Check *Settings > Time & Language > Language & region*).
 
-### Projeyi Çalıştırma
+### How to Run the Project
 
-1. Bu depoyu bilgisayarınıza klonlayın:
+1. Clone this repository to your local machine:
    ```bash
-   git clone [https://github.com/KULLANICI_ADIN/sesli-asistan-konsol.git](https://github.com/KULLANICI_ADIN/sesli-asistan-konsol.git)
+   git clone [https://github.com/YOUR_USERNAME/console-voice-assistant.git](https://github.com/YOUR_USERNAME/console-voice-assistant.git)
